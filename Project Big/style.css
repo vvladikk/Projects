@@ -1,0 +1,391 @@
+*{
+    font-family:'Roboto', sans-serif;
+    background: #e2eafa;
+}
+body{
+    height: 3800px;
+}
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+    right: 600px;   
+    transition: 0.5s ease;
+}
+.navigation a:hover{
+    color: #DF1616;
+} 
+.squre-pink{
+    position:relative;
+    left: 260px;
+    background: #EC6083;
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+}
+.squre-pink img{
+    position: relative;
+    left: 18px;
+    right: 18px;
+    top: 18px;
+    bottom: 18px;
+}
+.squre-pink .img2{
+    position: relative;
+    left: 20%;
+    right: 40%;
+    top: 30%;
+    bottom: 4%;
+}
+.icon-search{
+    background-color: #000;
+    left: 200px;
+}
+.squre-purple{
+    position:relative;
+    left: 150%;
+    top: 3%;
+    background: #c960ec;
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+}
+.squre-purple-black{
+    position:absolute;
+    left: 400px;    
+    top: 3%;
+    left: 300%;
+    background: #1d0f39;
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+}
+.zagolovok{
+    margin-top: 10%;
+    width: 600px;
+    margin-left: 100px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 90px;
+    text-transform: capitalize;
+}
+.zagolovok h1{
+    color: black;
+}
+.zagolovok span{
+    color: #EC6083;
+}
+.pid-zagolovok{
+    position: absolute;
+    width: 340px;
+    height: 60px;
+    left: 110px;
+    top: 630px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;    
+    color: rgba(0, 0, 0, 0.6);;
+}
+.middle-screen .burger{
+    position: absolute;
+    left: 60%;
+    bottom: 20%;
+    background: none;
+}
+.background-burger{
+    position: absolute;
+    left: 60%;
+    bottom: 200px;
+}
+.start{
+    position: absolute;
+    width: 10%;
+    height: 55px;
+    top: 75%;
+    left: 100px;
+    background: #EC6083;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+    transition: 0.5s ease;
+}
+.start:hover{
+    background: none;
+    color: #EC6083;
+    box-shadow: 0px 0px 20px #EC6083, 0px 0px 10px #EC6083;
+}
+.middle-2 h2, .middle-3 h2{
+    position: absolute;
+    width: 140px;
+    height: 21px;
+    left: 46%;
+    top: 105%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #EC6083;
+}
+.middle-2 h1, .middle-3 h1{
+    position: absolute;
+    width: 500px;
+    height: 112px;
+    left: 36%;
+    top: 108%;  
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    background: none;
+}
+.pictch-all{
+    position: absolute;
+    display: flex;
+    width: 50%;
+    margin-top: 65%;
+    margin-left: 250px;
+    top: 100px;
+    background: none;
+}
+.pictch-1, .pictch-2, .pictch-3{
+    justify-content: space-between;
+    margin-left: 200px;  
+}
+.pictch h3, .pictch-2 h3, .pictch-3 h3{
+    position: absolute;
+    left: 5%;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: capitalize;
+    color: #000000;
+    background: none;
+}
+.pictch-2 h3{
+    left: 60%;
+}
+.pictch-3 h3{
+    left: 121%;
+    width: 300px;
+}
+.pictch p, .pictch-2 p, .pictch-3 p{
+    position: absolute;
+    width: 227px;
+    height: 47px;
+    left: 5%;
+    top: 122%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);  
+    background: none;
+}
+.pictch-2 p{
+    left: 62%;
+}
+.pictch-3 p{
+    left: 119%;
+}
+.middle-3{
+    position: absolute;
+    top: 20%;
+}
+.middle-3 h2{
+    width: 91px;
+    height: 21px;
+    left: 87px;
+    top: 1803px;
+}
+.middle-3 h1{
+    width: 500px;
+    height: 117px;
+    left: 87px;
+    top: 1838px;
+    text-align: left;
+}
+.btn-color1 button, .btn-color-2 button{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 1570px;
+    top: 208%;   
+    background: #cfcfcf;
+    border-radius: 100px;
+    border: #cfcfcf;
+    cursor: pointer;
+    transition: 0.5s ease; 
+}
+.btn-color-2 button{
+    left: 1500px;
+}
+.btn-color-2 button:hover{
+    background: #EC6083;
+    box-shadow: 0px 0px 20px #EC6083, 0px 0px 10px #EC6083;
+}
+.btn-color1 button:hover{   
+    background: #EC6083;
+    box-shadow: 0px 0px 20px #EC6083, 0px 0px 10px #EC6083;
+}
+.btn-color-2 img, .btn-color1 img{
+    align-items: center;
+    background: none;
+    position: relative;
+    top: 2px;
+}
+.cards{
+    position: relative;
+    left: 8%;
+    top: 45%;
+}
+.card1, .card2, .card3, .card1-line2, .card2-line2, .card3-line2{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    left: 10%;
+    right: 0%;
+    top: 240%;
+    bottom: 0%; 
+    background: linear-gradient(152.79deg, #E9F3FD 12.85%, #E8E8FF 49.53%, #E9F3FD 89.41%);
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 60px;
+}
+.card1 img, .card2 img, .card3 img, .card1-line2 img, .card2-line2 img, .card3-line2 img{
+    position: relative;
+    margin-bottom: 30%;
+}
+.card1 p, .card2 p, .card3 p, .card1-line2 p, .card2-line2 p, .card3-line2 p{
+    position: relative;
+    width: 220px;
+    bottom: 20%;
+    left: 60px;
+    background: none;   
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.5);
+}
+.card1 h1, .card2 h1, .card3 h1, .card1-line2 h1, .card2-line2 h1, .card3-line2 h1{
+    position: relative;
+    bottom: 20%;
+    left: 23%;
+    background: none;
+}
+.card1 button, .card2 button, .card3 button, .card1-line2 button, .card2-line2 button, .card3-line2 button{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    left: 75%;
+    top: 85%;
+    bottom: 0%;
+    border: #212135;
+    transition: 0.5s ease;
+    background: #cfcfcf;
+}
+.card1 button:hover{
+    background: #212135;
+    box-shadow: 0px 0px 20px #212135, 0px 0px 10px #212135;
+}
+.card1 button img, .card2 button img, .card3 button img, .card1-line2 button img, .card2-line2 button img, .card3-line2 button img{
+    background: none;
+    top: 9px;
+}
+.card2 button:hover{
+    background: #212135;
+    box-shadow: 0px 0px 20px #212135, 0px 0px 10px #212135;
+}
+.card2{
+    left: 32%;
+}
+
+.card3{
+    left: 54%;
+}
+.card3 p{
+    width: 242px;
+}
+.card3 button:hover{
+    background: #212135;
+    box-shadow: 0px 0px 20px #212135, 0px 0px 10px #212135;
+}
+.card1-line2{
+    position: absolute;
+    margin-top: 30%;
+}
+.card1-line2 button:hover{
+    background: #212135;
+    box-shadow: 0px 0px 20px #212135, 0px 0px 10px #212135;
+}
+.card2-line2{
+    position: absolute;
+    margin-top: 30%;
+    left: 32%;
+}
+.card2-line2 button:hover{
+    background: #212135;
+    box-shadow: 0px 0px 20px #212135, 0px 0px 10px #212135;
+}
+.card3-line2 button:hover{
+    background: #212135;
+    box-shadow: 0px 0px 20px #212135, 0px 0px 10px #212135;
+}
+.card3-line2{
+    position: absolute;
+    left: 54%;
+    margin-top: 30%;
+}
+.card3-line2 h1{
+    bottom: 24%;
+}
+footer{
+    height: 600px;
+}
+.column1{
+    height: 200px;
+    width: 200px;
+}
+.column1 p{
+    width: 200px;
+    position: absolute;
+    top: 380%;
+    left: 8%;
+}
+.column1 img{
+    position: absolute;
+    top: 370%;
+    left: 10%;
+}
+.column1 img{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: none;
+    top: 390%;
+}
